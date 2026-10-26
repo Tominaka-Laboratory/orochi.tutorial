@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orochi.tutorial"
+version = "0.1.0"
+authors = [
+  { name="Satoshi Tominaka", email="tominaka.satoshi@nims.go.jp" },
+]
+maintainers = [
+  { name="Satoshi Tominaka", email="tominaka.satoshi@nims.go.jp" },
+]
+description = "Official CUI and GUI tutorials for the Orochi 4.0 total scattering and PDF analysis suite."
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+dependencies = [
+    "orochi.base",
+    "orochi.pixia",
+    "orochi.pdfget",
+    "orochi.phase",
+    "orochi.pdfsim",
+    "orochi.fit",
+    "orochi.ui",
+    "orochi.view",
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "pandas",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = true
+

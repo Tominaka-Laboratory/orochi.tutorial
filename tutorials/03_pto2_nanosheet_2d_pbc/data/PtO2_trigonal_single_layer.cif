@@ -1,0 +1,24 @@
+data_PtO2_trigonal_single_layer.cif
+_audit_creation_date     2024-01-29
+_audit_creation_method     Orochi program
+_cell_length_a    3.06531
+_cell_length_b    3.06531
+_cell_length_c    2.94284
+_cell_angle_alpha    90.00000
+_cell_angle_beta    90.00000
+_cell_angle_gamma    120.00000
+_symmetry_space_group_name_H-M    P1
+_symmetry_Int_Tables_number    1
+_symmetry_cell_setting    t
+
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Pt Pt1 0.0 0.0 0.5 0.005037 1.0
+O O1 0.676283 0.341467 0.831012 0.005037 1.0
+O O2 0.342149 0.674251 0.168654 0.005037 1.0
