@@ -58,10 +58,14 @@ This tutorial includes all required experimental files with descriptive naming:
 
 ---
 
-## Expected Output Figure
+---
+
+## Official Publication Figure
+
+This tutorial workflow directly reproduces **Figure 4** of the official Orochi publication ([Tominaka, *ChemRxiv* 2026](https://doi.org/10.26434/chemrxiv.15010802/v2)):
 
 <p align="center">
-  <img src="images/tutorial_01_ceo2_qdepend.png" alt="Fluorite CeO2 Reduction and Q-dependent PDF Refinement" width="650" style="max-width: 100%; height: auto; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <img src="images/figure_4_ceo2_benchmark.png" alt="Figure 4: Comprehensive synchrotron total scattering benchmark on standard CeO2: ripple artifact mitigation and Q-dependent scattering factor effects." width="720" style="max-width: 100%; height: auto; border-radius: 6px; box-shadow: 0 4px 14px rgba(0,0,0,0.12); margin: 12px 0;">
   <br>
-  <em><b>Expected Output</b>: Fluorite CeO2 Reduction and Q-dependent PDF Refinement</em>
+  <em><b>Figure 4 (from Orochi publication)</b>: Comprehensive synchrotron total scattering benchmark on standard CeO2: ripple artifact mitigation and Q-dependent scattering factor effects.</em>
 </p>

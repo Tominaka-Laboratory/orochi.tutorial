@@ -42,10 +42,14 @@ For a nominal D = 25.0 Å (R = 12.5 Å) CeO₂ nanoparticle:
 
 ---
 
-## Expected Output Figure
+---
+
+## Official Publication Figure
+
+This tutorial workflow directly reproduces **Figure 5** of the official Orochi publication ([Tominaka, *ChemRxiv* 2026](https://doi.org/10.26434/chemrxiv.15010802/v2)):
 
 <p align="center">
-  <img src="images/tutorial_02_ceo2_nanoparticle.png" alt="CeO2 Nanoparticle Explicit vs Analytical Spherical Model" width="650" style="max-width: 100%; height: auto; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <img src="images/figure_5_ceo2_nanoparticle.png" alt="Figure 5: Explicit coordination-preserving modeling of oxide nanoparticles and breakdown of the uniform analytical sphere approximation." width="720" style="max-width: 100%; height: auto; border-radius: 6px; box-shadow: 0 4px 14px rgba(0,0,0,0.12); margin: 12px 0;">
   <br>
-  <em><b>Expected Output</b>: CeO2 Nanoparticle Explicit vs Analytical Spherical Model</em>
+  <em><b>Figure 5 (from Orochi publication)</b>: Explicit coordination-preserving modeling of oxide nanoparticles and breakdown of the uniform analytical sphere approximation.</em>
 </p>
