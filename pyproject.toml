@@ -12,7 +12,7 @@ maintainers = [
   { name="Satoshi Tominaka", email="tominaka.satoshi@nims.go.jp" },
 ]
 description = "Official CUI and GUI tutorials for the Orochi 4.0 total scattering and PDF analysis suite."
-readme = "README.md"
+readme = "README.rst"
 license = { text = "GPL-3.0-or-later" }
 requires-python = ">=3.9"
 classifiers = [
