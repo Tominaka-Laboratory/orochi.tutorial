@@ -66,6 +66,7 @@ If you use Orochi in academic research leading to a publication or thesis, pleas
   author  = {Tominaka, Satoshi},
   journal = {ChemRxiv},
   year    = {2026},
-  url     = {https://chemrxiv.org/doc/d84591ff-85b9-489c-839a-4f7170dcc1c4}
+  doi     = {10.26434/chemrxiv.15010802},
+  url     = {https://doi.org/10.26434/chemrxiv.15010802}
 }
 ```
