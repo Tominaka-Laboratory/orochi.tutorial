@@ -1,0 +1,42 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        shell: bash
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install orochi-suite || true
+          if [ -f requirements/pip.txt ]; then pip install -r requirements/pip.txt || true; fi
+          pip install -e .
+
+      - name: Smoke test tutorials
+        shell: bash
+        run: |
+          python -c "import orochi.tutorial; from orochi.tutorial import TUTORIALS_DIR; print('Tutorials dir:', TUTORIALS_DIR)"
+          python -c "from orochi.tutorial import tutorial_00_ni_synchrotron_benchmark, tutorial_01_ceo2_reduction_and_qdepend, tutorial_02_ceo2_nanoparticle_explicit_vs_analytical, tutorial_03_pto2_nanosheet_2d_pbc; print('Tutorial modules imported successfully')"
