@@ -38,3 +38,10 @@ For a nominal D = 25.0 Å (R = 12.5 Å) CeO₂ nanoparticle:
   ```bash
   python run_tutorial.py --gui
   ```
+
+
+---
+
+## Expected Output Figure
+
+![Expected Output Figure](images/tutorial_02_ceo2_nanoparticle.png)

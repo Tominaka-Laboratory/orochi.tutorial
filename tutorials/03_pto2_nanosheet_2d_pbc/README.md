@@ -35,3 +35,10 @@ The experimental dataset provided in this tutorial was collected on exfoliated s
   ```bash
   python run_tutorial.py --gui
   ```
+
+
+---
+
+## Expected Output Figure
+
+![Expected Output Figure](images/tutorial_03_pto2_nanosheet.png)

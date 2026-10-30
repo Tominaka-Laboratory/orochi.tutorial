@@ -54,3 +54,10 @@ This tutorial includes all required experimental files with descriptive naming:
 - `data/ceo2_diagonal_1d.txt`: Pre-integrated 1D total scattering profile across diagonal corner sectors.
 - `data/CeO2.cif`: Fluorite CeO₂ crystal structure model (Fm-3m, a ≈ 5.411 Å).
 - `data/CeO2.gr`: Pre-reduced pair distribution function G(r) reference profile.
+
+
+---
+
+## Expected Output Figure
+
+![Expected Output Figure](images/tutorial_01_ceo2_qdepend.png)

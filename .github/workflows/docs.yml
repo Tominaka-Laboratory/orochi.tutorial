@@ -19,7 +19,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${ steps.deployment.outputs.page_url }
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -46,6 +46,11 @@ jobs:
         run: |
           export PYTHONPATH="src:$PYTHONPATH"
           pdoc -d numpy --math -o public orochi.tutorial
+          # Copy tutorial figures into documentation tree for rich rendering
+          mkdir -p public/orochi/tutorial/images
+          cp tutorials/*/images/*.png public/orochi/tutorial/images/ 2>/dev/null || true
+          mkdir -p public/images
+          cp images/*.png public/images/ 2>/dev/null || true
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

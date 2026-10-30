@@ -88,3 +88,10 @@ This tutorial includes all required experimental files with descriptive naming:
 - `data/ni_diagonal_1d.txt`: Pre-integrated 1D total scattering profile across diagonal corner sectors (β = ±45° ± 18°).
 - `data/ni_full_1d.txt`: Conventional 360° unconstrained azimuthal integration profile exhibiting the edge cutoff at Q = 23.94 Å⁻¹.
 - `data/ni.cif`: Certified FCC Ni crystal structure model (Fm-3m, a₀ = 3.5238 Å).
+
+
+---
+
+## Expected Output Figure
+
+![Expected Output Figure](images/tutorial_00_ni_benchmark.png)
