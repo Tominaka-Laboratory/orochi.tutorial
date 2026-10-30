@@ -41,4 +41,8 @@ The experimental dataset provided in this tutorial was collected on exfoliated s
 
 ## Expected Output Figure
 
-![Expected Output Figure](images/tutorial_03_pto2_nanosheet.png)
+<p align="center">
+  <img src="images/tutorial_03_pto2_nanosheet.png" alt="PtO2 2D Nanosheet PDF Refinement under 2D PBC" width="650" style="max-width: 100%; height: auto; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <br>
+  <em><b>Expected Output</b>: PtO2 2D Nanosheet PDF Refinement under 2D PBC</em>
+</p>

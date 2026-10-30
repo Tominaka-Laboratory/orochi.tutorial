@@ -44,4 +44,8 @@ For a nominal D = 25.0 Å (R = 12.5 Å) CeO₂ nanoparticle:
 
 ## Expected Output Figure
 
-![Expected Output Figure](images/tutorial_02_ceo2_nanoparticle.png)
+<p align="center">
+  <img src="images/tutorial_02_ceo2_nanoparticle.png" alt="CeO2 Nanoparticle Explicit vs Analytical Spherical Model" width="650" style="max-width: 100%; height: auto; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <br>
+  <em><b>Expected Output</b>: CeO2 Nanoparticle Explicit vs Analytical Spherical Model</em>
+</p>

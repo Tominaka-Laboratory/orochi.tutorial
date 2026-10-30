@@ -94,4 +94,8 @@ This tutorial includes all required experimental files with descriptive naming:
 
 ## Expected Output Figure
 
-![Expected Output Figure](images/tutorial_00_ni_benchmark.png)
+<p align="center">
+  <img src="images/tutorial_00_ni_benchmark.png" alt="Figure 3: Metallic Nickel Benchmark PDF Refinement" width="650" style="max-width: 100%; height: auto; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <br>
+  <em><b>Expected Output</b>: Figure 3: Metallic Nickel Benchmark PDF Refinement</em>
+</p>
